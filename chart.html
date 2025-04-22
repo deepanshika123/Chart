@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chart.css">
+</head>
+<body>
+    <div class="chart">
+        <div class="chart-type">
+            <button onclick="setChartType('bar')">Bars</button>
+            <button onclick="setChartType('line')">Line</button>
+            <button onclick="setChartType('doughnut')">Doughnut</button>
+            <button onclick="setChartType('polarArea')">PolarArea</button>
+            <button onclick="setChartType('radar')">Radar</button>
+            <div class="chart-select">
+                <label for="itemSelect">Select Item:</label>
+                <select id="itemSelect" onchange="updateChart()">
+                  <option value="Tomato">Tomato</option>
+                  <option value="Potato">Potato</option>
+                  <option value="Onion">Onion</option>
+                  <option value="Wheat">Wheat</option>
+                  <option value="Rice">Rice</option>
+                </select>
+              </div>
+        </div>
+        <canvas id="myChart"></canvas>
+      </div>
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="chart.js"></script>
+</body>
+</html>

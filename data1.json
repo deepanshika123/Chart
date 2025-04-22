@@ -1,0 +1,51 @@
+[
+    {
+      "month": "January",
+      "Tomato": 48,
+      "Potato": 22,
+      "Onion": 30,
+      "Wheat": 2100,
+      "Rice": 2900
+    },
+    {
+      "month": "February",
+      "Tomato": 52,
+      "Potato": 20,
+      "Onion": 34,
+      "Wheat": 2150,
+      "Rice": 3000
+    },
+    {
+      "month": "March",
+      "Tomato": 57,
+      "Potato": 25,
+      "Onion": 40,
+      "Wheat": 2180,
+      "Rice": 3100
+    },
+    {
+      "month": "April",
+      "Tomato": 60,
+      "Potato": 26,
+      "Onion": 43,
+      "Wheat": 2230,
+      "Rice": 3050
+    },
+    {
+      "month": "May",
+      "Tomato": 58,
+      "Potato": 28,
+      "Onion": 41,
+      "Wheat": 2250,
+      "Rice": 3120
+    },
+    {
+      "month": "June",
+      "Tomato": 54,
+      "Potato": 30,
+      "Onion": 39,
+      "Wheat": 2200,
+      "Rice": 3080
+    }
+  ]
+  
